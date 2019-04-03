@@ -10,5 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "jest": "^24.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
