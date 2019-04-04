@@ -15,15 +15,14 @@
 function fizzBuzz(n) {
   let con = [];
   let i = 1;
+  let r = '';
 
   while (i <= n) {
-    con.push(fizz(i));
+    // con.push(fizz(i));
+    r = fizz(i);
+    console.log(r);
     i++;
   }
-
-  for (let n of con) console.log(n);
-
-  //   console.log(con);
 }
 
 const fizz = (i) => {
