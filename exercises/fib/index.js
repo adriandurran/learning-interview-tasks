@@ -14,7 +14,7 @@ function memoize(fn) {
     if (cache[args]) {
       return cache[args];
     }
-    const result = fn.apply(this, args);
+    const result = fn.apply(null, args);
     cache[args] = result;
     return result;
   };
